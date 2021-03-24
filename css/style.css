@@ -37,6 +37,9 @@ img {
 button {
     cursor: pointer;
 }
+a {
+    text-decoration: none;
+}
 
 .button {
     padding: 10px 20px;
@@ -52,6 +55,11 @@ button {
     line-height: 20px;
     display: flex;
     align-items: center;
+    
+}
+.button-show-clothes,
+.button-show-accesorize {
+    width: 130px;
 }
 
 .button-icon, .button-price {

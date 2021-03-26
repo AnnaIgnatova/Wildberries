@@ -391,13 +391,24 @@ a {
 
 .modal-title {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
+}
+.clean-cart {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(223, 105, 105);
+    border: none;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
 }
 
 .modal-close {
     position: absolute;
     background-color: transparent;
-    right: 15px;
+    right: 20px;
     top: 15px;
     font-size: 24px;
     border: none;
